@@ -11,11 +11,13 @@
 <body>
 
     <div id="example"></div>
-
+    <!--Working with components-->
     <script type="text/babel">
 
         var Bacon = React.createClass({
             render: function(){
+                // render takes only one tag
+                // that's y we have to enclose multiple tags to be printed in single div
                 return(
                     <div>
                         <h3>This is a simple component.</h3>
